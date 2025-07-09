@@ -1,4 +1,4 @@
-let x = 'pay';
+let x = 0;
 
 if (x != '' && x != null ) {
     console.log('Argument found')
