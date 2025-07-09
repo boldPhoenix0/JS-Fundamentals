@@ -1,6 +1,6 @@
 let x = 0;
 
-if (x != '' && x != null ) {
+if (x !== '' && x != null ) {
     console.log('Argument found')
 }
 else {
