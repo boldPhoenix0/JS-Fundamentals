@@ -1,13 +1,8 @@
-function checkArguments(a, b) {
-  if (!a && !b) {
-    console.log("No argument");
-  }
+let x = 'pay';
 
-  if (a && !b) {
-    console.log("Argument found");
-  }
-
-  if (a && b) {
-    console.log("Arguments found");
-  }
+if (x != '' && x != null ) {
+    console.log('Argument found')
+}
+else {
+    console.log('No argument')
 }
